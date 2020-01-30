@@ -1,0 +1,20 @@
+  name: MinecraftBots
+  main: nyc.welles.minecraftbots.MinecraftBots
+  version: 1.0-SNAPSHOT
+  softdepend: [PlaceholderAPI]
+  commands:
+    nsfw:
+      description: Toggle whether you chat and/or recieve nsfw messages
+      aliases: notsafeforwork, adultmsgs
+      permissions: mcbots.nsfwbot.togglechat, mcbots.nsfwbot.togglereceive
+
+  permissions:
+    mcbots.ytbot.use:
+      default: op
+      description: allow players to use "#ytbot" in their chat messages to search youtube for their video
+    mcbots.nsfwbot.togglechat:
+      default: op
+      description: Allow players to toggle whether they chat on nsfw mode (not recieve)
+    mcbots.nsfwbot.togglereceive:
+      default: op
+      description: Allow players to toggle whether they can reciever nsfw chat messages (not send)
