@@ -20,6 +20,8 @@ import java.net.URL
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  **/
+//TODO: remove
+
 open class SWBCommandHandler {
     protected fun isValid(url: String?): Boolean { /* Try creating a valid URL */
         return try {
