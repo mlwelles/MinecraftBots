@@ -24,6 +24,15 @@
       permissions: mcbots.nsfwbot.togglechat, mcbots.nsfwbot.togglereceive
 
   permissions:
+    mcbots.random.word:
+      default: op
+      description: Allow players to request a random word
+    mcbots.random.number:
+      default: op
+      description: Allow players to request a random number
+    mcbots.random.player:
+      default: op
+      description: Allow players to request a random player
     mcbots.ytbot.use:
       default: op
       description: allow players to use "#ytbot" in their chat messages to search youtube for their video
